@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'HouseRent.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'HouseRent',
+        'NAME': 'houserent',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': '1535',
-        'PORT': '3307',
+        'PASSWORD': '',
+        'PORT': '3306',
     }
 }
 
